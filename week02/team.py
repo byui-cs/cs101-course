@@ -37,4 +37,18 @@ Description:
 # TODO -> Display the text "       Hi There" using the format() statement and print()
 #         You should be using the option to right align text within a space of 20 spaces.
 
-# TODO -> Display the following using 
+
+# TODO -> Select your favorite verse(s) and display the text of that verse(s)
+#         inside a box of stars using print() statements.  
+#         You decide on the width of the box.
+
+"""
+Here is an example:
+
+****************************************************************
+* Alma 36:3                                                    *
+* Whosoever shall put their trust in God shall be supported in *
+* their trials, and their troubles, and their afflictions, and *
+* shall be lifted up at the last day.                          *
+****************************************************************
+"""
