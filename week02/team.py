@@ -52,3 +52,25 @@ Here is an example:
 * shall be lifted up at the last day.                          *
 ****************************************************************
 """
+
+# TODO -> Display the following using the format() command with
+#         the centering option
+
+"""
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+       *
+       *
+"""
+
+
+# TODO -> Complete the format() command to get the following output.
+#
+# ABC            23.34     45.56
+# ABCDF         123.34   2345.56
+print('?'.format('ABC', 23.34, 45.56))
+print('?'.format('ABCDF', 123.34, 2345.56))
