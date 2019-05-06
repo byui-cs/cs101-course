@@ -6,15 +6,15 @@ Author: Brother Comeau
 Description:
   This is the code for the weekly team activity.  
   Please work together in groups of 2 to 3.  
-  You will not be sumbitting your code for this activity.
+  You will not be submitting your code for this activity.
   You are free to continue working on this activity after class if you need more time.
 """
 
 # TODO -> Display your full name using a print() statement
 
 
-# TODO -> Display your full name using two print() statements, one for
-#         your first name and one for your last name.
+# TODO -> Display your full name on one line using two print() statements, 
+#         one for your first name and one for your last name.
 
 
 # TODO -> Create print() statements to output the following three lines;
@@ -69,6 +69,8 @@ Here is an example:
 
 
 # TODO -> Complete the format() command to get the following output.
+#         Replace the '?' in the following two print() statements.
+#         The '?' needs to be the same for both print() statements.
 #
 # ABC            23.34     45.56
 # ABCDF         123.34   2345.56
