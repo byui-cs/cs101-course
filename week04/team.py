@@ -48,7 +48,8 @@ Enter test grade 4: 100
 *                  John Brown                    *
 **************************************************
 Gpa: 3.48
-Grades: 89, 99, 100, 87
+Assignment Grades: 89, 99, 100, 87
+Test Grades: 79, 89, 76, 100
 Min assignment grade: 87
 Min test grade: 76
 Average assignment grade: 93.75
