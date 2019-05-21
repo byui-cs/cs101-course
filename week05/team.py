@@ -68,6 +68,10 @@ Description:
 #         2.34 and display the result.
 
 
+
+# ---------------------------------------------------------------------
+# Extra
+
 # TODO -> Create a function called "isFactor(number, factor)" that
 #         returns True if the value of "factor" is a factor of "number",
 #         return False otherwise.  Write code to call this function and
@@ -77,9 +81,6 @@ Description:
 #                 isFactor(100, 9)
 #                 isFactor(100, 20)
 
-
-# ---------------------------------------------------------------------
-# Extra - Internet Searches
 
 # TODO -> Given the following string, count the number of the's in it.
 myString = 'the cat jumped over the toy and hit the other cat'
