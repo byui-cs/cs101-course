@@ -15,7 +15,7 @@ This team activity will be using the Python turtle library.
 (https://docs.python.org/3.3/library/turtle.html?highlight=turtle)
 
 We will be drawing simple shapes using the turtle.  You move the turtle
-by using these commands:
+by using these commands(functions):
 
 forward(distance) - move the turtle forward the given distance
 
