@@ -32,10 +32,10 @@ Instructions:
        of making a choice.
        (ie.
        if choice1 == "1":
-           choice2 = openRedDoor() # openRedDoor returns another choice
+           openRedDoor() 
        elif choice1 == "2":
-           choice2 = runOtherWay()
-    6) For extra credit (10%), learn to use a library to do something special,
+           runOtherWay()
+    6) For extra credit (5-10%), learn to use a library to do something special,
        like display a graphic or tell the user how much time they took to finish.
        
     For an example of how to create this type of game, watch this video:
