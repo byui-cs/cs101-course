@@ -18,7 +18,7 @@ Complete the two functions below so they calculate the correct tax rates.
 
 def calculateSingleTax(monthlyIncome):
     """calculateSingleTax - given any monthly income, it returns the tax rate
-       based on the tax table described in the project requirements."""
+       based on the tax table described in the team activity requirements."""
     pass
 
 

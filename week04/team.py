@@ -78,7 +78,7 @@ Challenge: Alter your output to display this way (ie., additional * characters f
 *                  John Brown                    *
 **************************************************
 * Gpa: 3.48                                      *
-* Grades: 89, 99, 100, 87                        *
+* Assignment Grades: 89, 99, 100, 87             *
 
                      etc...
 
