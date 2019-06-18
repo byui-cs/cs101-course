@@ -30,7 +30,7 @@ Notes:
    the program needs to ask the user again for a valid value.
 
 2) Your program will need to calculate the number of days in the month
-   that the user enterd.  For example, if the user enters the number
+   that the user entered.  For example, if the user enters the number
    8 for August, your program needs to use 31 for the number of days
    for that month.  You can assume that the year is not a leap year
    and that February has 28 days. 
@@ -54,7 +54,10 @@ Enter start day (1 thru 7): 3
 
 """
 
-# TODO -> Define your functions here
+# TODO -> Define your functions here (look at the Main code to see what
+#         function you should be creating).
+
+
 
 # =====================================================================
 # Main code - Don't modify anything below
