@@ -1,19 +1,22 @@
 """
 Course: CS101
 File: team10.py
-Project: <project number>
 Author: <Your name>
 
 Description:
-  <Replace this line with what does your project/program do?>
+  This is the code for the weekly team activity.  
+  Please work together in groups of 2 to 3.  
+  You will not be sumbitting your code for this activity.
+  You are free to continue working on this activity after class if you need more time.
+
 """
 
 """
 Instructions:
 
-Your project will be implementing a number of functions.  Each function 
+Your code will be implementing a number of functions.  Each function 
 displays a different shape.  Your code MUST only use the following functions
-that are found in the project code to display anything to the console. (You
+that are found in the given code below to display anything to the console. (You
 may NOT use print statements in the functions you are completing.)
 
 star()      displays a '*' character without the new line
@@ -21,8 +24,9 @@ fill()      displays a '#' character without the new line
 space()     displays a ' ' character without the new line
 newline()   displays a new line
 
-Each function is called in the main code found at the bottom of this 
-project file.  Functions contain the sample output that you need to match.
+Each function should be called in the main code (at the bottom of this 
+file) as a result of the user choosing a menu option.  
+Functions contain the sample output that you need to match.
 
 """
 # =========================================================================
@@ -50,7 +54,7 @@ def newline():
 # below it should work like.  Your functions will need to call the
 # appropriate functions (defined above) to draw the expected shapes.
 # =========================================================================
-def sampleSquare(size):
+def sampleSquare():
     """ display a square of stars of the given size
         - The example below has size = 6
     ******  
@@ -60,6 +64,7 @@ def sampleSquare(size):
     *    *
     ******
     """
+    size = int(input('Enter the size: '))
     print('Sample Square of size', size)
 
     # display the first row of stars
@@ -85,7 +90,7 @@ def sampleSquare(size):
 # The functions below are the ones YOU need to complete.
 # Example output is shown for each.
 # =========================================================================
-def doubleSquare(size):
+def doubleSquare():
     """ Display a square with sides that are 2 stars thick 
         - This example has size = 3
     ******   
@@ -95,6 +100,7 @@ def doubleSquare(size):
     ******
     ******
     """
+    size = int(input('Enter the size: '))
     print('Double Square of size', size)
     pass
 
@@ -109,6 +115,7 @@ def halfAndHalf(size):
     *  ##*
     ******    
     """
+    size = int(input('Enter the size: '))
     print('Half and half square of size', size)
     pass
 
@@ -121,78 +128,44 @@ def rightTriangle(size):
      ***
     ****
     """
+    size = int(input('Enter the size: '))
     print('Right triangle of size', size)
     pass
 
 
-def twoTriangles(size):
-    """ Display two triangles 
-        - This example has size = 5
-    ***** *   
-    **** **
-    *** ***
-    ** ****
-    * *****
-    """
-    print('Two triangles of size', size)
-    pass
-
-
-def hockeyStick(handleLen, bladeLen):
-    """ Display a hockey stick where the handle is of length handleLen
-        and the blade is of length bladeLen.
-        - This example has handleLen = 6, bladeLen = 7
-
-    *
-     *            
-      *
-       *
-        *
-         *
-          *******
-    """
-    print('Hockey stick of size', handleLen, 'and', bladeLen)
-    pass
-
-
-def squareInSquare(outerSize, innerSize):
-    """ Display a small square inside a larger square 
-        - This example has outerSize = 10, innerSize = 4
-    **********   
-    *        *
-    *        *
-    *  ****  *
-    *  ****  *
-    *  ****  *
-    *  ****  *
-    *        *
-    *        *
-    **********    
-    """
-    print('Outer and inner square of size', outerSize, 'and', innerSize)
-    pass
-
 
 # =========================================================================
-# Main code - Don't change any code below
+# Main code - implement a menu that allows the user to draw any of the
+#             shapes you created with the functions above, until they
+#             they enter "0" to exit.
+#
+"""
+Example Output:
+    Which shape would you like to draw?
+    1) Square
+    2) Double Square
+    3) Half and Half Square
+    4) Right Triangle
+    Enter a number or 0 to quit: 1
+    
+    Enter the size: 6
+ 
+    ******  
+    *    *
+    *    *
+    *    *
+    *    *
+    ******
+    
+    Which shape would you like to draw?
+    1) Square
+    2) Double Square
+    3) Half and Half Square
+    4) Right Triangle
+    Enter a number or 0 to quit: 0
+    
+    Thanks for drawing!
 
-sampleSquare(4)
-sampleSquare(5)
+    
+"""
 
-doubleSquare(6)
-doubleSquare(9)
-
-halfAndHalf(6)
-halfAndHalf(10)
-
-rightTriangle(4)
-rightTriangle(6)
-
-twoTriangles(3)
-twoTriangles(7)
-
-hockeyStick(4, 2)
-hockeyStick(6, 7)
-
-squareInSquare(10, 4)
-squareInSquare(12, 6)

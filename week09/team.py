@@ -1,6 +1,6 @@
 """
 Course: CS101
-File: team02.py
+File: team09.py
 Author: Brother Comeau
 
 Description:
@@ -47,6 +47,12 @@ total = 735
 
 """
 
+import random
+
+# ********************************************
+# Use For Loops to solve the following
+# ********************************************
+
 # TODO -> display 0 through 9
 
 
@@ -72,6 +78,37 @@ total = 735
 
 
 # TODO -> display multiplication table 10 x 10 using loops
+
+
+# ********************************************
+# Use While Loops to solve the following
+# ********************************************
+
+# TODO -> display 0 through 9
+
+
+# TODO -> display range 11 through 77 by 3
+
+
+# TODO -> Ask the user for a grade between 0 and 100.  If the
+#         user enters an invalid grade, ask the user repeatedly
+#         for a grade until you get a valid grade.
+
+
+# TODO -> Using the variable answer below, repeatedly ask the user 
+#         for a value between 1 to 10.  If the user enters a value
+#         that is equal to the answer variable, tell the user the game
+#         is over.  Otherwise, tell the user they guessed wrong and
+#         to guess again.
+#         
+
+answer = random.randint(1, 10)
+
+
+
+# ********************************************
+# Extra 
+# ********************************************
 
 
 # TODO -> EXTRA: display all of the prime numbers between 100 and 1,000
