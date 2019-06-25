@@ -105,7 +105,7 @@ def doubleSquare():
     pass
 
 
-def halfAndHalf(size):
+def halfAndHalf():
     """ Display a square that is half filled 
         - This example has size = 6
     ******  
@@ -120,7 +120,7 @@ def halfAndHalf(size):
     pass
 
 
-def rightTriangle(size):
+def rightTriangle():
     """ Display a right triangle 
         - This example has size = 4
        *  
