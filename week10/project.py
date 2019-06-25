@@ -35,6 +35,9 @@ Notes:
    for that month.  You can assume that the year is not a leap year
    and that February has 28 days. 
 
+3) The function displayMonth() must use a loop to display the
+   days in the month.
+
 Sample Output (Try different values for testing your project)
 
 Enter month (1 thru 12): 0
